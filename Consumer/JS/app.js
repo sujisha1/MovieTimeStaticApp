@@ -84,7 +84,7 @@ function getMovies(){
             /*items.push("<video src='" + BLOB_ACCOUNT + val["filepath"] + "' width='400'/> <br />")*/
             items.push("<video controls width='320' height =320'> <source src='" + BLOB_ACCOUNT + val["filePath"] + "' height='40'/> </video> <br />");
             items.push("File : " + val["fileName"] + "<br />");
-            items.push("Uploaded by: " + val["userName"] + " (user id: " + val["userID"] + ")<br />");
+            items.push("Uploaded by: " + val["userName"] + " (user idssssssssssssssss: " + val["userID"] + ")<br />");
 
             items.push("Genre : " + val["genre"] + "<br />");
             items.push("Producer : " + val["producer"] + "<br />");
