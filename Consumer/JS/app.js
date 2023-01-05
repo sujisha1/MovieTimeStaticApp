@@ -22,6 +22,12 @@ $(document).ready(function() {
     submitNewAsset();
     
   }); 
+ $("#Home").click(function () {
+
+        //Execute the submit new asset function
+        window.history.go(-1)
+
+    });
 });
 
 //A function to submit a new asset to the REST endpoint 
